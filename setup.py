@@ -2,12 +2,12 @@
 import os
 
 from distutils.core import setup
-import django_settings
+from django_settings import __version__
 
 
 setup(
     name='django-settings',
-    version=django_settings.__version__,
+    version=__version__,
     description='Simple django reusable application for storing project settings in database.',
     author='Alvaro Pelegrina',
     author_email='alvaro@designhouseilo.fi',
