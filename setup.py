@@ -9,9 +9,9 @@ setup(
     name='django-settings',
     version=django_settings.__version__,
     description='Simple django reusable application for storing project settings in database.',
-    author='Kuba Janoszek',
-    author_email='kuba.janoszek@gmail.com',
-    url='http://github.com/jqb/django-settings',
+    author='Alvaro Pelegrina',
+    author_email='alvaro@designhouseilo.fi',
+    url='http://github.com/alvaromlg/django-settings',
     packages=['django_settings'],
     package_dir={
         'django_settings': 'django_settings'},
